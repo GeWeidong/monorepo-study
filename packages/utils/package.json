@@ -1,6 +1,6 @@
 {
   "name": "@gewd_npm/utils",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "@gewd_npm/utils",
   "author": "gewd_npm",
   "license": "MIT",
@@ -9,7 +9,5 @@
   "types": "dist/utils.d.ts",
   "files": [
     "dist"
-  ],
-  "dependencies": {
-  }
+  ]
 }
