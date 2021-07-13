@@ -21,6 +21,9 @@
   "repository": {
     "type": "git"
   },
+  "workspaces": [
+    "packages/*"
+  ],
   "keywords": [
     "mitojs",
     "error",
