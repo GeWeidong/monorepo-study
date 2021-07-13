@@ -1,8 +1,3 @@
-/*
- * For a detailed explanation regarding each configuration property and type check, visit:
- * https://jestjs.io/docs/en/configuration.html
- */
-
 export default {
   collectCoverage: false,
   transform: {
@@ -22,7 +17,7 @@ export default {
     // alias src/(.*) not work
     // 从上到下优先匹配
     '@/test/(.*)': '<rootDir>/test/$1',
-    '@mitojs/(.*)': '<rootDir>/packages/$1/src/index'
+    '@gewd_test01/(.*)': '<rootDir>/packages/$1/src/index'
   },
   globalSetup: './test/config/setup.js',
   globalTeardown: './test/config/teardown.js',

@@ -1,8 +1,8 @@
 {
-  "name": "@mitojs/utils",
-  "version": "2.1.16",
-  "description": "@mitojs/utils",
-  "author": "cjinhuo",
+  "name": "@gewd_npm/utils",
+  "version": "1.0.3",
+  "description": "@gewd_npm/utils",
+  "author": "gewd_npm",
   "license": "MIT",
   "main": "dist/utils.js",
   "module": "dist/utils.esm.js",
@@ -11,9 +11,5 @@
     "dist"
   ],
   "dependencies": {
-    "@mitojs/core": "2.1.16",
-    "@mitojs/browser": "2.1.16",
-    "@mitojs/shared": "2.1.16",
-    "@mitojs/types": "2.1.16"
   }
 }

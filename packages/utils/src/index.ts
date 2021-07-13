@@ -1,10 +1,8 @@
-export * from './browser'
-export * from './exception'
-export * from './helpers'
-export * from './is'
-export * from './global'
-export * from './logger'
-export * from './queue'
-export * from './Severity'
-export * from './mini'
-export * from './httpStatus'
+import { variableTypeDetection } from './is';
+
+export const init = (num: number) => {
+    if (!variableTypeDetection.isNumber(num)) {
+        console.log('必须传入number类型');
+    }
+    alert(num);
+}

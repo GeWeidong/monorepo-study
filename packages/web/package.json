@@ -1,8 +1,8 @@
 {
-  "name": "@mitojs/web",
+  "name": "@gewd_npm/web",
   "version": "2.1.16",
-  "description": "A SDK For Monitoring Web(React、Vue) Errors",
-  "author": "cjinhuo(https://github.com/cjinhuo)",
+  "description": "A SDK do nothing",
+  "author": "geweidong",
   "license": "MIT",
   "main": "dist/web.js",
   "module": "dist/web.esm.js",
@@ -11,8 +11,6 @@
     "dist"
   ],
   "dependencies": {
-    "@mitojs/browser": "2.1.16",
-    "@mitojs/react": "2.1.16",
-    "@mitojs/vue": "2.1.16"
+    "@gewd_npm/utils": "1.0.0"
   }
 }

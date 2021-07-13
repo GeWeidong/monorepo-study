@@ -27,7 +27,7 @@ const name = path.basename(packageDir)
 // const pathResolve = (p) => path.resolve(packageDir, p)
 
 // major name
-const M = '@mitojs'
+const M = '@gewd_test01'
 const packageDirs = fs.readdirSync(packagesDir)
 const paths = {}
 packageDirs.forEach((dir) => {
